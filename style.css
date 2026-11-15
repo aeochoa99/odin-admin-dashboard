@@ -36,3 +36,10 @@ p {
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
+
+:root {
+    --sidebar-background-color: #1992d4;
+    --card-secondary-color: #f0b429;
+    --main-background-color: #e2e8f0;
+    --primary-color: #ffffff;
+}
