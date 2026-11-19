@@ -200,5 +200,7 @@ button {
 }
 
 .main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: var(--main-background-color);
 }
