@@ -59,6 +59,8 @@ a {
 }
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-column: 2 / 3;
   background-color: var(--primary-color);
 }
