@@ -83,10 +83,26 @@ a {
 }
 
 .search > img {
+  height: 30px;
+  min-width: 30px;
   justify-self: end;
 }
 
+.notifications > img {
+  height: 30px;
+  min-width: 30px;
+}
+
+.greeting > img {
+  height: 60px;
+  min-width: 60px;
+}
+
 input {
+  border-radius: 20px;
+  background-color: var(--main-background-color);
+  border: none;
+  padding: 5px;
   justify-self: start;
   width: 90%;
 }
@@ -132,7 +148,13 @@ input {
 }
 
 button {
-  padding: 5px 40px 5px 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--sidebar-background-color);
+  color: var(--primary-color);
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .sidebar {
