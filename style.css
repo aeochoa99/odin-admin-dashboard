@@ -229,12 +229,14 @@ button {
   grid-column: 2 /3;
 }
 
-.announcement {
-  padding: 20px;
+.announcements {
+  background-color: var(--primary-color);
+  border-radius: 10px;
 }
 
 .announcement {
   border-bottom: 1px solid var(--main-background-color);
+  padding: 20px;
 }
 
 .users {
@@ -257,7 +259,6 @@ button {
 }
 
 .card,
-.announcement,
 .users {
   background-color: var(--primary-color);
 }
