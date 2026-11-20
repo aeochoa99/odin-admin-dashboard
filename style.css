@@ -261,3 +261,36 @@ button {
 .users {
   background-color: var(--primary-color);
 }
+
+.card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 10px;
+  border-left: 10px solid var(--card-secondary-color);
+  padding: 15px;
+}
+
+.card > h3,
+.card > p {
+  grid-column: 1 / 2;
+}
+
+.card > h3 {
+  align-self: end;
+}
+
+.card-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 2 / 3;
+  align-self: end;
+}
+
+.card-icons > img {
+  height: 30px;
+  min-width: 30px;
+}
+
+.card-icons > img:hover {
+  cursor: pointer;
+}
