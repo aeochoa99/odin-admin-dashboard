@@ -264,7 +264,7 @@ button {
 
 .card {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   border-radius: 10px;
   border-left: 10px solid var(--card-secondary-color);
   padding: 15px;
