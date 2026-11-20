@@ -55,7 +55,7 @@ a {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr 7fr;
 }
 
 .header {
@@ -201,6 +201,63 @@ button {
 
 .main-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   background-color: var(--main-background-color);
+  padding: 20px;
+  gap: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  grid-column: 1 / 2;
+}
+
+.main-content > h2:first-of-type {
+  grid-column: 1 / 2;
+}
+
+.main-content > h2:last-of-type {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.news {
+  display: grid;
+  gap: 15px;
+  grid-column: 2 /3;
+}
+
+.announcement {
+  padding: 20px;
+}
+
+.announcement {
+  border-bottom: 1px solid var(--main-background-color);
+}
+
+.users {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.user > p:last-of-type {
+  grid-column: 2 / 3;
+}
+
+.user > img {
+  justify-self: center;
+}
+
+.card,
+.announcement,
+.users {
+  background-color: var(--primary-color);
 }
